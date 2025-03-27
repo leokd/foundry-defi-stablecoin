@@ -1,9 +1,11 @@
 # DeFi Stablecoin Project
 
 📜 **Description**  
+
 The DeFi Stablecoin Project is a decentralized finance (DeFi) protocol built to create a stablecoin pegged to a specific value, using collateralized assets. The protocol enables users to mint, redeem, and manage stablecoins while maintaining the system's stability. Built using Solidity and OpenZeppelin's secure and efficient contracts, this project offers features like collateral management, minting, and burning of stablecoins, along with a robust governance system to ensure decentralized decision-making.
 
-🚀 **Features**  
+🚀 **Features** 
+ 
 - Mint and burn stablecoins with collateral
 - Overcollateralization mechanism to ensure stability
 - OpenZeppelin's ERC20 token standard for stablecoin issuance
@@ -11,16 +13,20 @@ The DeFi Stablecoin Project is a decentralized finance (DeFi) protocol built to 
 - Integration with price oracles for real-time price data and stability
 
 📂 **Updates**  
+
 The latest version of openzeppelin-contracts has changes in the ERC20Mock file. To follow along with the course, you need to install version 4.8.3 which can be done by forge install openzeppelin/openzeppelin-contracts@v4.8.3 --no-commit instead of forge install openzeppelin/openzeppelin-contracts --no-commit
 Usage
 Start a local node
 make anvil
+
 **Deploy** 
+
 This will default to your local node. You need to have it running in another terminal in order for it to deploy.
 
 make deploy
 
 **Testing** 
+
 We talk about 4 test tiers in the video.
 
 Unit
@@ -37,6 +43,7 @@ and for coverage based testing:
 forge coverage --report debug
 
 **Deployment to a testnet or mainnet** 
+
 Setup environment variables
 You'll want to set your SEPOLIA_RPC_URL and PRIVATE_KEY as environment variables. You can add them to a .env file, similar to what you see in .env.example.
 
@@ -52,6 +59,7 @@ Deploy
 make deploy ARGS="--network sepolia"
 
 **Scripts**
+
 Instead of scripts, we can directly use the cast command to interact with the contract.
 
 For example, on Sepolia:
@@ -69,6 +77,7 @@ forge snapshot
 And you'll see an output file called .gas-snapshot
 
 **Formatting**
+
 To run code formatting:
 
 forge fmt
@@ -80,6 +89,7 @@ Some users were having a confusion that whether Chainlink-brownie-contracts is a
 https://github.com/smartcontractkit/chainlink-brownie-contracts
 
 **License**
+
 This project is licensed under the MIT License.
 
 💡 **Feel free to fork and modify this project for your needs!**
