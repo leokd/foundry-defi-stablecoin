@@ -7,7 +7,7 @@ import {Test, console} from "forge-std/Test.sol";
 import {StdCheats} from "forge-std/StdCheats.sol";
 import {OracleLib} from "src/libraries/OracleLib.sol";
 import {AggregatorV3Interface} from
-    "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+    "lib/lib/chainlink-brownie-contracts/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 contract OracleLibTest is StdCheats, Test {
     using OracleLib for AggregatorV3Interface;
