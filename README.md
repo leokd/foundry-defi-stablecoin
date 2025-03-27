@@ -5,7 +5,7 @@
 The DeFi Stablecoin Project is a decentralized finance (DeFi) protocol built to create a stablecoin pegged to a specific value, using collateralized assets. The protocol enables users to mint, redeem, and manage stablecoins while maintaining the system's stability. Built using Solidity and OpenZeppelin's secure and efficient contracts, this project offers features like collateral management, minting, and burning of stablecoins, along with a robust governance system to ensure decentralized decision-making.
 
 🚀 **Features** 
- 
+
 - Mint and burn stablecoins with collateral
 - Overcollateralization mechanism to ensure stability
 - OpenZeppelin's ERC20 token standard for stablecoin issuance
@@ -93,3 +93,6 @@ https://github.com/smartcontractkit/chainlink-brownie-contracts
 This project is licensed under the MIT License.
 
 💡 **Feel free to fork and modify this project for your needs!**
+
+Thank you!
+

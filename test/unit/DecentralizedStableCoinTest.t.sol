@@ -13,7 +13,6 @@ contract DecentralizedStablecoinTest is StdCheats, Test {
         dsc = new DecentralizedStableCoin();
     }
 
-    //
     function testMustMintMoreThanZero() public {
         vm.prank(dsc.owner());
         vm.expectRevert();
